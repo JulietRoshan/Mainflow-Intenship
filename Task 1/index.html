@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Build Your Dream PC | PC Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#">PC<span>Builder</span></a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Features ▾</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Custom Builds</a></li>
+              <li><a href="#">Performance Tuning</a></li>
+              <li><a href="#">Compatibility Check</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Services ▾</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Consultation</a></li>
+              <li><a href="#">Assembly</a></li>
+              <li><a href="#">Shipping</a></li>
+            </ul>
+          </li>
+          <li><a href="#" id="aboutLink">About</a></li>
+          <li><a href="#" id="contactLink">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content container">
+      <h1>Build Your Ultimate PC</h1>
+      <p>Customize, optimize, and power up your dream gaming or work setup with our expert PC building tools.</p>
+      <a href="#" class="cta-btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features container">
+    <h2>Why Choose Us?</h2>
+    <div class="features-grid">
+      <div class="feature-item">
+        <h3>Custom PC Builds</h3>
+        <p>Tailor every component to fit your needs — from gaming rigs to professional workstations.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Expert Assembly</h3>
+        <p>Our technicians ensure your PC is perfectly assembled and tested before delivery.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Compatibility Checks</h3>
+        <p>We guarantee all your parts will work seamlessly together for peak performance.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Fast Shipping</h3>
+        <p>Get your custom PC delivered quickly and safely right to your doorstep.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="cta-btn">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container footer-container">
+      <p>© 2025 PCBuilder. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
